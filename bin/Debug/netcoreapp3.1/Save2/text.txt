@@ -1,0 +1,19 @@
+<blok id=1>
+<pozycja>20066.8461849469,19798.6288159801,19633.1538150531,20001.3711840199</pozycja>
+<index>1</index>
+<hashcode>39564799</hashcode>
+</blok>
+<blok id=2>
+<pozycja>20065.0832078335,20073.6532456688,19634.9167921665,19726.3467543312</pozycja>
+<index>2</index>
+<hashcode>20538874</hashcode>
+</blok>
+<iloscblokow>2</iloscblokow>
+<linia id=1>
+<nazwa>DJFGEHJJzzCAFDIIHE</nazwa>
+<pozycja>
+<X1>20141,8461849469</X1><Y1>19873,6288159801</Y1>
+<X2>20140,0832078335</X2><Y2>20148,6532456688</Y2>
+</pozycja>
+</linia>
+<ilosclini>1</ilosclini>

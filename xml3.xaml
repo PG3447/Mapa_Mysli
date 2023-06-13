@@ -1,0 +1,3 @@
+<Menu Name="MennuZamkniete" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" HorizontalAlignment="Right" VerticalAlignment="Top" DockPanel.Dock="Right" Height="20" Width="50" Panel.ZIndex="4" Background="Green" >
+    <MenuItem Header="&lt;--" Width="50"/>
+</Menu>

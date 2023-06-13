@@ -1,0 +1,31 @@
+﻿<Window x:Class="MapaMysli.MainWindow"
+        x:Name="GlowneOkno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <DockPanel x:Name="Dokpanel">
+        <Grid x:Name="grid"
+          MouseLeftButtonDown="Grid_MouseLeftButtonDown" MouseMove="Grid_MouseMove" MouseLeftButtonUp="Grid_MouseLeftButtonUp" MouseWheel="Grid_MouseWheel">
+            <Grid.RenderTransform>
+                <TranslateTransform x:Name="tt"/>
+            </Grid.RenderTransform>
+            <Grid.LayoutTransform>
+                <ScaleTransform x:Name="GridScaleTransform"/>
+            </Grid.LayoutTransform>
+            <Canvas Name="canvas" Height="200" Width="300"  Background="Black" MouseMove="Canvas_MouseMove" MouseLeftButtonUp="Canvas_MouseLeftButtonUp" MouseLeftButtonDown="Canvas_MouseLeftButtonDown" Margin="500,0,0,284">
+                <TextBlock Foreground="DarkOrange" Name="BlokTytul" Text="Tytuł: " TextWrapping="Wrap" Canvas.Left="10" Canvas.Top="10"/>
+                <Border Name="BorderTytul" Canvas.Left="56" Canvas.Top="10" Height="26" Width="225">
+                    <TextBox Name="Tytultxt" BorderBrush="DarkBlue" BorderThickness="1" Background="#F6BE00"  FontSize="10" Text="Hello, world!"/>
+                </Border>
+                <TextBlock Foreground="DarkOrange" Text="Zawartosc: " FontSize="10" TextWrapping="Wrap" Canvas.Top="58" Padding="2"/>
+                <Border Name="BorderZawartosc" Canvas.Left="56" Canvas.Top="58" Width="225" Height="80">
+                    <TextBox AutoWordSelection="True" BorderBrush="DarkBlue" BorderThickness="1" Name="Zawartosctxt" Background="#009b00"  FontSize="10" Text="Hello, world!" AcceptsReturn="True" AcceptsTab="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"  Padding="0,0,0,0"/>
+                </Border>
+                <Button Name="DodawaniePodstawa" Content="Button" Canvas.Left="240" Canvas.Top="170" Click="Button_Click"/>
+            </Canvas>
+        </Grid>
+    </DockPanel>
+</Window>

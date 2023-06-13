@@ -1,0 +1,7 @@
+<blok id=1>
+<pozycja>20072.7644510942,19795.2084386864,19627.2355489058,20004.7915613136</pozycja>
+<index>0</index>
+<hashcode>24861802</hashcode>
+</blok>
+<iloscblokow>1</iloscblokow>
+<ilosclini>0</ilosclini>

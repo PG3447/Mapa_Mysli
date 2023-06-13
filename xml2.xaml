@@ -1,0 +1,16 @@
+<Menu Name="Mennu" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" HorizontalAlignment="Right" DockPanel.Dock="Right" Height="250" Width="50" Panel.ZIndex="4" Background="Green" >
+    <MenuItem Header="X " Width="20" Height="18" Background="GreenYellow" HorizontalAlignment="Right" Margin="32,0,0,0" HorizontalContentAlignment="Center"/>
+    <MenuItem Header="ADD" Width="50"/>
+    <MenuItem Header="ADD TO" Width="50"/>
+    <MenuItem Header="DELETE" Width="50"/>
+    <MenuItem Header="SAVE" Width="50"/>
+    <MenuItem Header="NSAVE" Width="50"/>
+    <MenuItem Header="LOAD" Width="50"/>
+    <MenuItem Header="DSAVE" Width="50"/>
+    <MenuItem Header="I:" Width="10" IsHitTestVisible="False" Padding="1"/>
+    <ComboBox Name="ComboxxItems" IsEditable="True"  Width="26" Padding="0" Height="20">
+        <ComboBoxItem  Tag="0" Content="0" IsSelected="True"/>
+    </ComboBox>
+    <MenuItem Header="DRAW"  Width="50" Background="Green"/>
+    <MenuItem Header="DROP" Width="50" Background="Green"/>
+</Menu>

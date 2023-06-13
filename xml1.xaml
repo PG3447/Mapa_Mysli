@@ -1,0 +1,12 @@
+﻿<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="canvas" Height="200" Width="300"  Background="Black">
+    <TextBlock Foreground="DarkOrange" Name="BlokTytul" Text="Tytuł: " TextWrapping="Wrap" Canvas.Left="10" Canvas.Top="10"/>
+    <Border Name="BorderTytul" Canvas.Left="56" Canvas.Top="10" Height="26" Width="225">
+        <TextBox Name="Tytultxt" BorderBrush="DarkBlue" BorderThickness="1" Background="#F6BE00"  FontSize="10" Text="Hello, world!"/>
+    </Border>
+    <TextBlock Foreground="DarkOrange" Text="Zawartosc: " FontSize="10" TextWrapping="Wrap" Canvas.Top="58" Padding="2"/>
+    <Border Name="BorderZawartosc" Canvas.Left="56" Canvas.Top="58" Width="225" Height="80">
+        <TextBox AutoWordSelection="True" BorderBrush="DarkBlue" BorderThickness="1" Name="Zawartosctxt" Background="#009b00"  FontSize="10" Text="Hello, world!" AcceptsReturn="True" AcceptsTab="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"  Padding="0,0,0,0"/>
+    </Border>
+    <Button Name="Dodawanie" Content="Button" Canvas.Left="195" Canvas.Top="170"/>
+    <Button Name="Usuwanie" Content="Button" Canvas.Left="240" Canvas.Top="170"/>
+</Canvas>

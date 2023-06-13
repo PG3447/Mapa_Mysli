@@ -1,0 +1,9 @@
+ADD - tworzy nowy blok
+ADD TO - tworzy nowy blok w punkcie kursora
+DELETE - usuwa dany blok
+SAVE - tworzy nowy zapis
+NSAVE - nadpisuje aktualnie wybrazny zapis
+LOAD - ładuje wybrany zapis z I:
+I: - aktualnie wybrany zapis
+DRAW - tworzy nową linię
+DROP - usuwa daną linię
